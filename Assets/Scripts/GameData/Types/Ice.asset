@@ -12,9 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5955bba731bab9d4885960f6ddb61f7b, type: 3}
   m_Name: Ice
   m_EditorClassIdentifier: 
-  _internalName: 0
-  _name: 
-  _isSpecialType: 0
-  _weaknesses: []
-  _resistances: []
+  _internalName: 15
+  _name: Ice
+  _isSpecialType: 1
+  _weaknesses:
+  - {fileID: 11400000, guid: 6ceff5b68dd205b448a611b27d1d53e4, type: 2}
+  - {fileID: 11400000, guid: 7eedcb20960dcf242aef8e7a3086729f, type: 2}
+  - {fileID: 11400000, guid: 219be8fb8447835499687130fe71dde3, type: 2}
+  - {fileID: 11400000, guid: 8c0a623da3df24e468ede03c64664ac2, type: 2}
+  _resistances:
+  - {fileID: 11400000}
   _immunities: []

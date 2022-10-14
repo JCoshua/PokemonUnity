@@ -12,9 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5955bba731bab9d4885960f6ddb61f7b, type: 3}
   m_Name: Electric
   m_EditorClassIdentifier: 
-  _internalName: 0
-  _name: 
-  _isSpecialType: 0
-  _weaknesses: []
-  _resistances: []
+  _internalName: 13
+  _name: Electric
+  _isSpecialType: 1
+  _weaknesses:
+  - {fileID: 11400000, guid: 280e532e0cc38c24da814c95935b1c04, type: 2}
+  _resistances:
+  - {fileID: 11400000}
+  - {fileID: 11400000, guid: b2bac582579e3d449a6412b64e700002, type: 2}
+  - {fileID: 11400000, guid: 8c0a623da3df24e468ede03c64664ac2, type: 2}
   _immunities: []

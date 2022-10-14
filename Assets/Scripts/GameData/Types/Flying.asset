@@ -12,9 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5955bba731bab9d4885960f6ddb61f7b, type: 3}
   m_Name: Flying
   m_EditorClassIdentifier: 
-  _internalName: 0
-  _name: 
+  _internalName: 3
+  _name: Flying
   _isSpecialType: 0
-  _weaknesses: []
-  _resistances: []
-  _immunities: []
+  _weaknesses:
+  - {fileID: 11400000, guid: 546945275d5d55c41bba2e04214107e7, type: 2}
+  - {fileID: 11400000, guid: c63d6e77800273144bd7f72c164428c4, type: 2}
+  - {fileID: 11400000, guid: ba8b3652d50047141bfd07d3b25a91d7, type: 2}
+  _resistances:
+  - {fileID: 11400000, guid: 2e652e0ed657df849863fca05342fc02, type: 2}
+  - {fileID: 11400000, guid: 6ceff5b68dd205b448a611b27d1d53e4, type: 2}
+  - {fileID: 11400000, guid: ba8b3652d50047141bfd07d3b25a91d7, type: 2}
+  _immunities:
+  - {fileID: 11400000, guid: 280e532e0cc38c24da814c95935b1c04, type: 2}

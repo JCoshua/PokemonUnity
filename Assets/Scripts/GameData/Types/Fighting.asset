@@ -15,6 +15,12 @@ MonoBehaviour:
   _internalName: 2
   _name: Fighting
   _isSpecialType: 0
-  _weaknesses: []
-  _resistances: []
+  _weaknesses:
+  - {fileID: 11400000, guid: 778709281850c3841b01dd6e2b133833, type: 2}
+  - {fileID: 11400000, guid: b2bac582579e3d449a6412b64e700002, type: 2}
+  - {fileID: 11400000, guid: 5cf94498aad260643b6292ad9f901bdb, type: 2}
+  _resistances:
+  - {fileID: 11400000, guid: 2e652e0ed657df849863fca05342fc02, type: 2}
+  - {fileID: 11400000, guid: 5d33b701789155d4e86dd45152f9a6b1, type: 2}
+  - {fileID: 11400000, guid: 219be8fb8447835499687130fe71dde3, type: 2}
   _immunities: []

@@ -12,9 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5955bba731bab9d4885960f6ddb61f7b, type: 3}
   m_Name: Grass
   m_EditorClassIdentifier: 
-  _internalName: 0
-  _name: 
-  _isSpecialType: 0
-  _weaknesses: []
-  _resistances: []
+  _internalName: 12
+  _name: Grass
+  _isSpecialType: 1
+  _weaknesses:
+  - {fileID: 11400000, guid: 2e652e0ed657df849863fca05342fc02, type: 2}
+  - {fileID: 11400000, guid: 7eedcb20960dcf242aef8e7a3086729f, type: 2}
+  - {fileID: 11400000, guid: b2bac582579e3d449a6412b64e700002, type: 2}
+  - {fileID: 11400000, guid: c63d6e77800273144bd7f72c164428c4, type: 2}
+  - {fileID: 11400000, guid: 8b84dd6ae812ae346a80c3c19abf250c, type: 2}
+  _resistances:
+  - {fileID: 11400000, guid: 546945275d5d55c41bba2e04214107e7, type: 2}
+  - {fileID: 11400000}
+  - {fileID: 11400000, guid: 280e532e0cc38c24da814c95935b1c04, type: 2}
+  - {fileID: 11400000, guid: 9a5e9115d8c9c2345979fd9cb3b93902, type: 2}
   _immunities: []

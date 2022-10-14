@@ -12,9 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5955bba731bab9d4885960f6ddb61f7b, type: 3}
   m_Name: Dragon
   m_EditorClassIdentifier: 
-  _internalName: 0
-  _name: 
-  _isSpecialType: 0
-  _weaknesses: []
-  _resistances: []
+  _internalName: 16
+  _name: Dragon
+  _isSpecialType: 1
+  _weaknesses:
+  - {fileID: 11400000}
+  - {fileID: 11400000, guid: 778709281850c3841b01dd6e2b133833, type: 2}
+  - {fileID: 11400000, guid: c63d6e77800273144bd7f72c164428c4, type: 2}
+  _resistances:
+  - {fileID: 11400000, guid: 546945275d5d55c41bba2e04214107e7, type: 2}
+  - {fileID: 11400000, guid: 7eedcb20960dcf242aef8e7a3086729f, type: 2}
+  - {fileID: 11400000, guid: ba8b3652d50047141bfd07d3b25a91d7, type: 2}
+  - {fileID: 11400000, guid: 9a5e9115d8c9c2345979fd9cb3b93902, type: 2}
   _immunities: []

@@ -12,7 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5955bba731bab9d4885960f6ddb61f7b, type: 3}
   m_Name: Normal
   m_EditorClassIdentifier: 
+  _internalName: 1
+  _name: Normal
   _isSpecialType: 0
-  _weaknesses: []
+  _weaknesses:
+  - {fileID: 11400000, guid: 6ceff5b68dd205b448a611b27d1d53e4, type: 2}
   _resistances: []
-  _immunities: []
+  _immunities:
+  - {fileID: 11400000, guid: 812ee7019b8c6fc418167bca295a33a8, type: 2}
