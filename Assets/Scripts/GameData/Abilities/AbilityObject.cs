@@ -276,14 +276,17 @@ public enum AbilityID
 [CreateAssetMenu(fileName = "NewAbility", menuName = "GameData/Ability")]
 public class AbilityObject : ScriptableObject
 {
-    //[SerializeField]
-    //private AbilityID _internalName;
     [SerializeField]
+    [Tooltip("The name used by the game.")]
+    private AbilityID _internalName;
+    [SerializeField]
+    [Tooltip("The name visable to the player.")]
     private string _name;
     [SerializeField]
+    [Tooltip("The description of the ability.")]
     private string _description;
 
-    //public AbilityID InternalName => _internalName;
+    public AbilityID InternalName => _internalName;
     public string Name => _name;
     public string Description => _description;
 }
