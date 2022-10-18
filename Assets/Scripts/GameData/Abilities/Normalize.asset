@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74df531fc3456d3418ce56deb1820276, type: 3}
   m_Name: Normalize
   m_EditorClassIdentifier: 
-  _internalName: 0
-  _name: 
-  _description: 
+  _internalName: 96
+  _name: Normalize
+  _description: "This Pok\xE9mon normalizes all moves to be Normal-type. This also
+    boost their power slightly."

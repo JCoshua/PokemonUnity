@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74df531fc3456d3418ce56deb1820276, type: 3}
   m_Name: Honey Gather
   m_EditorClassIdentifier: 
-  _internalName: 0
-  _name: 
-  _description: 
+  _internalName: 118
+  _name: Honey Gather
+  _description: "This Pok\xE9mon may occasionally gather honey after battle."

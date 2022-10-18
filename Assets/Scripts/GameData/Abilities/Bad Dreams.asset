@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 74df531fc3456d3418ce56deb1820276, type: 3}
-  m_Name: Bad Dream
+  m_Name: Bad Dreams
   m_EditorClassIdentifier: 
-  _internalName: 0
-  _name: 
-  _description: 
+  _internalName: 123
+  _name: Bad Dreams
+  _description: "A sleeping Pok\xE9mon around Darkrai will have bad dreams, taking
+    a small amount of damage every turn."

@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74df531fc3456d3418ce56deb1820276, type: 3}
   m_Name: Shed Skin
   m_EditorClassIdentifier: 
+  _internalName: 61
   _name: Shed Skin
   _description: "This Pok\xE9mon occasionally sheds its skin, removing any status
     condition in the process."

@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74df531fc3456d3418ce56deb1820276, type: 3}
   m_Name: Solar Power
   m_EditorClassIdentifier: 
-  _internalName: 0
-  _name: 
-  _description: 
+  _internalName: 94
+  _name: Solar Power
+  _description: "This Pok\xE9mon uses the sun to increase its power at the cost of
+    some of its HP."

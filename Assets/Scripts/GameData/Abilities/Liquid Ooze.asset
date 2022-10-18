@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74df531fc3456d3418ce56deb1820276, type: 3}
   m_Name: Liquid Ooze
   m_EditorClassIdentifier: 
+  _internalName: 64
   _name: Liquid Ooze
   _description: "This Pok\xE9mon's oozes a poisonous liquid that harms any Pok\xE9mon
     that tries to drain its HP."

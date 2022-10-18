@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74df531fc3456d3418ce56deb1820276, type: 3}
   m_Name: Simple
   m_EditorClassIdentifier: 
+  _internalName: 86
   _name: Simple
   _description: "This Pok\xE9mon's simple nature doubles stat changes it receives."

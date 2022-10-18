@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74df531fc3456d3418ce56deb1820276, type: 3}
   m_Name: Rain Dish
   m_EditorClassIdentifier: 
+  _internalName: 44
   _name: Rain Dish
   _description: "This Pok\xE9mon collects falling rain to gradually heal itself."

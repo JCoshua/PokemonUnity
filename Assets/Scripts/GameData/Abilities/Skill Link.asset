@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74df531fc3456d3418ce56deb1820276, type: 3}
   m_Name: Skill Link
   m_EditorClassIdentifier: 
-  _internalName: 0
-  _name: 
-  _description: 
+  _internalName: 92
+  _name: Skill Link
+  _description: "This Pok\xE9mon is skilled in link strings of attacks, always hitting
+    the maximum amount of hits on multi-hit attacks."

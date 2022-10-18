@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74df531fc3456d3418ce56deb1820276, type: 3}
   m_Name: Marvel Scale
   m_EditorClassIdentifier: 
+  _internalName: 63
   _name: Marvel Scale
   _description: "This Pok\xE9mon's marvelous scales boost the Defense stat if it
     has a status condition."

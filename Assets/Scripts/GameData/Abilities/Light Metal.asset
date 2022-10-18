@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74df531fc3456d3418ce56deb1820276, type: 3}
   m_Name: Light Metal
   m_EditorClassIdentifier: 
-  _internalName: 0
-  _name: 
-  _description: 
+  _internalName: 135
+  _name: Light Metal
+  _description: "The metal comprising this Pok\xE9mon body is so light, it weighs
+    half as much as usual"

@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74df531fc3456d3418ce56deb1820276, type: 3}
   m_Name: No Guard
   m_EditorClassIdentifier: 
-  _internalName: 0
-  _name: 
-  _description: 
+  _internalName: 99
+  _name: No Guard
+  _description: "This Pok\xE9mon employs no-guard tactics to ensure incoming and
+    outgoing attacks always land."

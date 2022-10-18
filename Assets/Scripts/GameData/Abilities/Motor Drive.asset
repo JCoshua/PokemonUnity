@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74df531fc3456d3418ce56deb1820276, type: 3}
   m_Name: Motor Drive
   m_EditorClassIdentifier: 
+  _internalName: 78
   _name: Motor Drive
   _description: "Being powered by electricity, this Pok\xE9mon's Speed is raised
     by electric-type attacks."

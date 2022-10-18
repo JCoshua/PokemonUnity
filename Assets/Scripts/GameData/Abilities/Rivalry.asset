@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74df531fc3456d3418ce56deb1820276, type: 3}
   m_Name: Rivalry
   m_EditorClassIdentifier: 
+  _internalName: 79
   _name: Rivalry
   _description: "This Pok\xE9mon is apart of a competitive species and deals more
     damage to Pok\xE9mon of the same gender."

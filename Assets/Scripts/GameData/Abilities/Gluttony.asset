@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74df531fc3456d3418ce56deb1820276, type: 3}
   m_Name: Gluttony
   m_EditorClassIdentifier: 
+  _internalName: 82
   _name: Gluttony
   _description: "This Pok\xE9mon is so hungry, it will eat berries earlier than usual."

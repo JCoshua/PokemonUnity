@@ -10,8 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 74df531fc3456d3418ce56deb1820276, type: 3}
-  m_Name: Imposter 1
+  m_Name: Power Spot
   m_EditorClassIdentifier: 
-  _internalName: 0
-  _name: 
-  _description: 
+  _internalName: 249
+  _name: Power Spot
+  _description: "This Pok\xE9mon acts as a power spot for its allies, powering up
+    their moves."

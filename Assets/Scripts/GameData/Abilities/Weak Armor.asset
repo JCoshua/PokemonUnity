@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74df531fc3456d3418ce56deb1820276, type: 3}
   m_Name: Weak Armor
   m_EditorClassIdentifier: 
-  _internalName: 0
-  _name: 
-  _description: 
+  _internalName: 133
+  _name: Weak Armor
+  _description: "This Pok\xE9mon armor breaks easily from physical attacks. When
+    it does, its Defense is lowered but its speed greatly increases."

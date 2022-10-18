@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74df531fc3456d3418ce56deb1820276, type: 3}
   m_Name: Run Away
   m_EditorClassIdentifier: 
+  _internalName: 50
   _name: Run Away
   _description: Ensures escape from battles.

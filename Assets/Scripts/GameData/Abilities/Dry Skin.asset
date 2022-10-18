@@ -12,5 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74df531fc3456d3418ce56deb1820276, type: 3}
   m_Name: Dry Skin
   m_EditorClassIdentifier: 
-  _name: 
-  _description: 
+  _internalName: 87
+  _name: Dry Skin
+  _description: "This Pok\xE9mon's dry skin heals when in contact with water, but
+    increases damage when in contact with fire and heat."

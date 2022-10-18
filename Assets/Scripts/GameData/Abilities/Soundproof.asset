@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74df531fc3456d3418ce56deb1820276, type: 3}
   m_Name: Soundproof
   m_EditorClassIdentifier: 
+  _internalName: 43
   _name: Soundproof
   _description: "By altering its hearing, this Pok\xE9mon gains immunity from sound-based
     moves."

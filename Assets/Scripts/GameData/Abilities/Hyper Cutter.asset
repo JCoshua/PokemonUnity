@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74df531fc3456d3418ce56deb1820276, type: 3}
   m_Name: Hyper Cutter
   m_EditorClassIdentifier: 
+  _internalName: 52
   _name: Hyper Cutter
   _description: "This Pok\xE9mon's powerful claws or pincers prevent it's Attack
     stat from being lowered."

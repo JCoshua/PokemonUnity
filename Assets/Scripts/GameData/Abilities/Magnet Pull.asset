@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74df531fc3456d3418ce56deb1820276, type: 3}
   m_Name: Magnet Pull
   m_EditorClassIdentifier: 
+  _internalName: 42
   _name: Magnet Pull
   _description: "This Pok\xE9mon magnetism prevents opposing Steel-Type Pok\xE9mon
     from switching out."
