@@ -270,7 +270,9 @@ public enum AbilityID
     CHILLINGNEIGH,
     GRIMNEIGH,
     ASONECHILLINGNEIGH,
-    ASONEGRIMNEIGH
+    ASONEGRIMNEIGH,
+    //Place Custom Abilties Here
+    ZCustomZ
 };
 
 [CreateAssetMenu(fileName = "NewAbility", menuName = "GameData/Ability")]

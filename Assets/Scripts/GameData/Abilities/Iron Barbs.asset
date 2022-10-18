@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 74df531fc3456d3418ce56deb1820276, type: 3}
-  m_Name: Blaze
+  m_Name: Iron Barbs
   m_EditorClassIdentifier: 
-  _internalName: 66
-  _name: Blaze
-  _description: "Powers up Fire-type moves when the Pok\xE9mon's HP is low."
+  _internalName: 0
+  _name: 
+  _description: 

@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74df531fc3456d3418ce56deb1820276, type: 3}
   m_Name: Air Lock
   m_EditorClassIdentifier: 
+  _internalName: 76
   _name: Air Lock
   _description: Neutralizes and locks the effects of weather.
