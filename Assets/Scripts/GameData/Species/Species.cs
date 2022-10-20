@@ -964,6 +964,7 @@ public enum EggGroups
     Dragon,
 };
 
+
 [Serializable]
 public struct Types
 {
@@ -994,7 +995,13 @@ public struct EVYield
     }
 
     public StatID Stat;
-    public int Yeild;
+    public int Yield;
+}
+[Serializable]
+public struct Abilities
+{
+    public Ability AbilityOne;
+    public Ability AbilityTwo;
 }
 
 [CreateAssetMenu(fileName = "NewSpecies", menuName = "GameData/Species")]
@@ -1014,7 +1021,6 @@ public class Species : ScriptableObject
     private GenderRatio _ratio;
     [SerializeField]
     private GrowthRates _growth;
-    private AbilityObject _ability;
 
     [SerializeField]
     private int _expYield = 0;
@@ -1027,9 +1033,11 @@ public class Species : ScriptableObject
     [SerializeField]
     private int _baseHappiness = 0;
 
-    public Types Types => _types;
-    public Stats Stats => _stats;
-    public EVYield[] EVYields => _eVYields;
+    [SerializeField]
+    private Abilities _abilities;
+    [SerializeField]
+    private Ability _hiddenAbility;
+
     public GenderRatio Ratio => _ratio;
 
     public void Initialize()

@@ -29,6 +29,10 @@ MonoBehaviour:
   _expYield: 64
   _eVYields:
   - Stat: 3
-    Yeild: 1
+    Yield: 0
   _catchRate: 45
   _baseHappiness: 50
+  _abilities:
+    AbilityOne: {fileID: 11400000, guid: 4a5a9d0c83d598b4e9863332158cf296, type: 2}
+    AbilityTwo: {fileID: 0}
+  _hiddenAbility: {fileID: 11400000, guid: 4ed3782947a56a74cafc35a06ce8a17b, type: 2}

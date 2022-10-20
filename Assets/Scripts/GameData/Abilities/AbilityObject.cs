@@ -276,7 +276,7 @@ public enum AbilityID
 };
 
 [CreateAssetMenu(fileName = "NewAbility", menuName = "GameData/Ability")]
-public class AbilityObject : ScriptableObject
+public class Ability : ScriptableObject
 {
     [SerializeField]
     [Tooltip("The name used by the game.")]
