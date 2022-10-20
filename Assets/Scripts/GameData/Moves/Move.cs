@@ -7,34 +7,50 @@ using UnityEngine;
 public struct MoveFlags
 {
     [Tooltip("The move makes physical contact with the target.")]
-    bool Contact;
+    public bool Contact;
     [Tooltip("The target can use Protect or Detect to protect itself from the move.")]
-    bool GoesThroughProtect;
+    public bool GoesThroughProtect;
     [Tooltip("The move can be copied by Mirror Move.")]
-    bool CanMirrorMove;
+    public bool CanMirrorMove;
     [Tooltip("If the user is frozen, the move will thaw it out before it is used.")]
-    bool ThawsUser;
+    public bool ThawsUser;
     [Tooltip("The move has a high critical hit rate.")]
-    bool HighCriticalHitRate;
+    public bool HighCriticalHitRate;
     [Tooltip("The move is a biting move (powered up by the ability Strong Jaw).")]
-    bool Biting;
+    public bool Biting;
     [Tooltip("The move is a punching move (powered up by the ability Iron Fist).")]
-    bool Punching; 
+    public bool Punching; 
     [Tooltip("The move is a sound-based move (goes through substitute).")]
-    bool Sound;
+    public bool Sound;
     [Tooltip("The move is a powder-based move (Grass-type Pokémon are immune to them).")]
-    bool Powder;
+    public bool Powder;
     [Tooltip("The move is a pulse-based move (powered up by the ability Mega Launcher).")]
-    bool Pulse;
+    public bool Pulse;
     [Tooltip("The move is a bomb-based move (nullified by the ability Bulletproof).")]
-    bool Bomb; 
+    public bool Bomb; 
     [Tooltip("The move is a dance move (repeated by the ability Dancer).")]
-    bool Dance;
+    public bool Dance;
     [Tooltip("This move cannot be called by the move Metronome. Used for signature moves or other special moves.")]
-    bool CannnotMetronome;
+    public bool CannnotMetronome;
     [Tooltip("This move deals double damage to Pokémon that used Minimize at least once without switching out. Also skips all accuracy and evasion checks.")]
-    bool TramplesMinimize; 
+    public bool TramplesMinimize; 
 };
+
+[Serializable]
+public enum Targets
+{
+    User,
+    NearOther,
+    NearFoe,
+    NearAlly,
+    UserAndAllies,
+    AllNearFoes,
+    AllNear,
+    All,
+    UserSide,
+    FoeSide,
+    Field
+}
 
 public enum Category
 {
@@ -44,7 +60,7 @@ public enum Category
 };
 
 [CreateAssetMenu(fileName = "NewMove", menuName = "GameData/Move")]
-public abstract class Move : ScriptableObject
+public class Move : ScriptableObject
 {
     [SerializeField]
     private string _name;
@@ -62,26 +78,31 @@ public abstract class Move : ScriptableObject
     private int _basePower;
 
     [SerializeField]
-    [Range(0, 100)]
     private int _accuracy = 100;
 
     [SerializeField]
     private int _totalPP;
 
     [SerializeField]
-    [Range(-7, 7)]
     private int _priority = 0;
 
     [SerializeField]
-    [Range(0, 100)]
     private int _effectChance;
+
+    [SerializeField]
+    private Targets _target = Targets.NearOther;
+
+    [SerializeField]
+    private MoveFlags _flags;
 
     private Species _user;
 
     public int TotalPP => _totalPP;
 
 
-    abstract public void Effect(Species target);
+    [SerializeField]
+    private EffectCode _effectCode;
+    private EffectBehavior _effect;
 
     public bool IsPhysical()
     {
@@ -108,5 +129,15 @@ public abstract class Move : ScriptableObject
     public bool IsStatus()
     {
         return _category == Category.STATUS;
+    }
+
+    public void initialize()
+    {
+        switch(_effectCode)
+        {
+            case EffectCode.NoAdditionalEffect:
+
+                break;
+        }    
     }
 }

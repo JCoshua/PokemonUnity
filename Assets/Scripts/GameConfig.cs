@@ -18,5 +18,10 @@ public class GameConfig : Object
     static public bool needHMs = false;
     static public Move[] HMList;
 
+    //Uses Legneds: Arceus Frostbite condition instead of Freeze.
+    static public bool useFrostbite = true;
+    //Uses Legneds: Arceus Drowsing condition instead of Sleep.
+    static public bool useDrowsy = true;
+
     static public void initializeHMList() { }
 }
