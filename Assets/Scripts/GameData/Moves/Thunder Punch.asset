@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Thunder Punch
   m_EditorClassIdentifier: 
   _name: Thunder Punch
-  _description: The target is punched with an icy fist. This may also leave the target
-    frozen.
+  _description: The target is punched with an electrified fist. This may also leave
+    the target with paralysis.
   _category: 0
-  _type: {fileID: 11400000, guid: c63d6e77800273144bd7f72c164428c4, type: 2}
+  _type: {fileID: 11400000, guid: 546945275d5d55c41bba2e04214107e7, type: 2}
   _basePower: 75
   _accuracy: 100
   _totalPP: 15
@@ -38,4 +38,4 @@ MonoBehaviour:
     Dance: 0
     CannnotMetronome: 0
     TramplesMinimize: 0
-  _effectCode: 4
+  _effectCode: 5
