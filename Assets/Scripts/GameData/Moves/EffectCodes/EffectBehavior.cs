@@ -6,12 +6,23 @@ using UnityEngine;
 [Serializable]
 public enum EffectCode
 { 
-    NoAdditionalEffect,
-    MultiHitEffect,
-    IncreaseRewardMoneyEffect,
-    BurnTargetEffect,
-    FreezeTargetEffect,
-    ParalyzeTargetEffect,
+    MoveEffect,
+    StatUpMoveEffect,
+    StatDownMoveEffect,
+    FixedDamageMoveEffect,
+    TwoTurnMoveEffect,
+    HealingMoveEffect,
+    RecoilMoveEffect,
+    ProtectMoveEffect,
+    WeatherMoveEffect,
+    DoNothingMoveEffect,
+    ScatterMoneyMoveEffect,
+    DoubleRewardMoneyMoveEffect,
+    FailsIfNotUserFirstTurnMoveEffect,
+    MultiHitMoveEffect,
+    BurnTargetMoveEffect,
+    FreezeTargetMoveEffect,
+    ParalyzeTargetMoveEffect,
 }
 
 
