@@ -938,15 +938,7 @@ public enum GenderRatio
     AlwaysMale //0% Female/100% Male
 
 }
-public enum GrowthRates
-{
-    Erratic,
-    Fast,
-    MediumFast,
-    MediumSlow,
-    Slow,
-    Fluctuating
-}
+
 public enum EggGroups
 {
     Undiscovered = -1,

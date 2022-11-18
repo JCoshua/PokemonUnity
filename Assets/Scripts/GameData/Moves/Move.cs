@@ -135,9 +135,7 @@ public class Move : ScriptableObject
     {
         switch(_effectCode)
         {
-            case EffectCode.NoAdditionalEffect:
 
-                break;
         }    
     }
 }
